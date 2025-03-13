@@ -1,0 +1,60 @@
+body {
+    background-color: grey;
+}
+
+main {
+    background-color: white;
+    margin: 0 auto;
+    width: 40%;
+    padding: 20px 40px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 25px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    border-bottom: solid 2px blue;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    padding: 0 50px;
+    row-gap: 18px;
+    margin: 30px 0;
+}
+
+input, select, button {
+    padding: 10px 5px;
+}
+
+select {
+    width: 70%;
+}
+
+button {
+    margin-top: 20px;
+    width: 50%;
+    background-color: rgb(131, 200, 223);
+    color: white;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+.checkbox {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: 10px;
+}
+
+label {
+    font-weight: bold;
+}
+
+
+
+
+
